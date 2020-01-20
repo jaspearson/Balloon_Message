@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notifications.BalloonMessage", "Notifications.BalloonMessage", "{1093CEF8-994F-4022-8496-512CA7D5B830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications.BalloonMessage", "Notifications.BalloonMessage\Notifications.BalloonMessage\Notifications.BalloonMessage.csproj", "{8527FE0B-E8D8-45CD-8931-259820D373D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications.BalloonMessage.Activities", "Notifications.BalloonMessage\Notifications.BalloonMessage.Activities\Notifications.BalloonMessage.Activities.csproj", "{CCE980A6-5B67-4778-8458-0B8DB64B912A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications.BalloonMessage.Activities.Design", "Notifications.BalloonMessage\Notifications.BalloonMessage.Activities.Design\Notifications.BalloonMessage.Activities.Design.csproj", "{5B964972-86E2-4473-974E-E12952CB4BC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B7A8D345-E7E7-4C02-8454-6970596A6E10}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{5b964972-86e2-4473-974e-e12952cb4bc7}*SharedItemsImports = 4
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{cce980a6-5b67-4778-8458-0b8db64b912a}*SharedItemsImports = 4
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8527FE0B-E8D8-45CD-8931-259820D373D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8527FE0B-E8D8-45CD-8931-259820D373D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8527FE0B-E8D8-45CD-8931-259820D373D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8527FE0B-E8D8-45CD-8931-259820D373D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE980A6-5B67-4778-8458-0B8DB64B912A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE980A6-5B67-4778-8458-0B8DB64B912A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE980A6-5B67-4778-8458-0B8DB64B912A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE980A6-5B67-4778-8458-0B8DB64B912A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B964972-86E2-4473-974E-E12952CB4BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B964972-86E2-4473-974E-E12952CB4BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B964972-86E2-4473-974E-E12952CB4BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B964972-86E2-4473-974E-E12952CB4BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8527FE0B-E8D8-45CD-8931-259820D373D6} = {1093CEF8-994F-4022-8496-512CA7D5B830}
+		{CCE980A6-5B67-4778-8458-0B8DB64B912A} = {1093CEF8-994F-4022-8496-512CA7D5B830}
+		{5B964972-86E2-4473-974E-E12952CB4BC7} = {1093CEF8-994F-4022-8496-512CA7D5B830}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {B7A8D345-E7E7-4C02-8454-6970596A6E10}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {B7A8D345-E7E7-4C02-8454-6970596A6E10}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDCEC6B9-153F-4E03-A6F7-399268489A51}
+	EndGlobalSection
+EndGlobal
