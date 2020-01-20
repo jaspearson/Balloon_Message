@@ -8,4 +8,8 @@ Accepts 5 Input Arguments:
 - **Timeout (Integer/milliseconds)** - Note anything over 30000 milliseconds is truncated and returned to the max of 30000. This is default behavior of the windows balloon tip messages. 
 - **Title (String)** - The short title to display on the balloon tip message. 
 
+Windows 8.1
 <img src="/images/Demo.png" width="800" /> 
+
+Windows 10
+<img src="/images/Demo2.png" width="800" /> 
